@@ -41,7 +41,10 @@ Before running the app, please make sure to do following:
 
 
 Use  command  'npx react-native run-android" to run the front-end side in clinic folder,\
-The clinic_server is , please use command 'node creatdb' to run creadb
+The clinic_server is , please use command 'node creatdb' to run creadb.js  first in order to create database, then use 'node createTable' to run in order to create three tables in database which are user, booking and record. Both these two should run once only. \
+After that, you can run the backend server by using the command "nodemon  server" or "node server" and run the clinic_db for an API for clinic to create consultation record.
+
+After setting up all above, the app can run normally:)
 
 
 
